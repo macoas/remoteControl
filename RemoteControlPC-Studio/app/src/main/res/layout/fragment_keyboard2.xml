@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/intButton"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Inteligible"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/nointButton"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="No inteligible"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/adeButton"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Adecuado"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/noadeButton"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="No adecuado"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/o1Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Omisiones 1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/o2Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Omisiones 2"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/o3Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Omisiones 3"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/o4Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Omisiones 4"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/f1Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Fluidez 1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/f2Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Fluidez 2" />
+
+        <Button
+            android:id="@+id/f3Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Fluidez 3" />
+
+        <Button
+            android:id="@+id/f4Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Fluidez 4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/v1Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Velocidad 1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/v2Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Velocidad 2"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/v3Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Velocidad 3"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/v4Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Velocidad 4"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/c1Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Curva 1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/c2Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Curva 2" />
+
+        <Button
+            android:id="@+id/c3Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Curva 3" />
+
+        <Button
+            android:id="@+id/c4Button"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Curva 4" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/contButton"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Continuar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/repButton"
+            style="@style/button_keyboard_screen"
+            android:layout_weight="1"
+            android:text="Repetir"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

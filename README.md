@@ -32,3 +32,7 @@ La aplicación está orientada al uso dentro del proyecto titulado "<i>Incorpora
 
 # Como realizar modificaciones
 La aplicación de escritorio ha sido desarrollada en Netbeans(Java-FXML) y la aplicación android ha sido desarrollada en Android-Studio
+
+<p>Cada botón de la aplicación tiene un código asociado que será recogido por la aplicación de escritorio. La clase ButtonEnum que se encuentra en /path/to/repository/RemoteControlPC Studio/app/src/main/java/me/varunon9/remotecontrolpc/keyboard/ButtonEnum.java define los diferentes códigos y la clase /path/to/repository/RemoteControlPC Studio/app/src/main/java/me/varunon9/remotecontrolpc/keyboard/KeyboardFragment.java lanza los códigos dependiendo del botón pulsado</p>
+
+<p>La clase /path/to/repository/RemoteControlPC-JavaFXML/src/mousekeyboardcontrol/MouseKeyboardControl.java recoge los códigos y lanza la pulsación de las teclas del teclado. Los códigos asociados a cada tecla del teclado pueden encontrarse en <a href="https://docs.oracle.com/javase/7/docs/api/java/awt/event/KeyEvent.html"></a></p>

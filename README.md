@@ -26,3 +26,9 @@ La aplicación está orientada al uso dentro del proyecto titulado "<i>Incorpora
   <li>Introducir los detalles de conexión (IP) mostrada en la aplicación de escritorio</li>
 </ol>
 
+# Screenshots
+![alt text](https://github.com/macoas/remoteControl/blob/master/Screenshots/Pantalla%20de%20botones.png)
+![alt text](https://github.com/macoas/remoteControl/blob/master/Screenshots/Pantalla%20principal.png)
+
+# Como realizar modificaciones
+La aplicación de escritorio ha sido desarrollada en Netbeans(Java-FXML) y la aplicación android ha sido desarrollada en Android-Studio

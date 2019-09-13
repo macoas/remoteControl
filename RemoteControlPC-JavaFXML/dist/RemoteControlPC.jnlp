@@ -11,9 +11,6 @@
     <jar href="RemoteControlPC.jar" size="75407" download="eager" />
     <jar href="lib\RemoteControlPC-Libraries.jar" size="1658" download="eager" />
   </resources>
-  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="RemoteControlPC" >
-    <param name="requiredFXVersion" value="8.0+"/>
-  </applet-desc>
   <jfx:javafx-desc  width="800" height="600" main-class="remotecontrolpc.RemoteControlPC"  name="RemoteControlPC" />
   <update check="always"/>
 </jnlp>
